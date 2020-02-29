@@ -16,8 +16,6 @@ sass:
 
 exclude:
   - .ruby_version
-  - docker-compose.yml
-  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - Makefile

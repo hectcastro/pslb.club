@@ -1,9 +1,9 @@
 all: serve
 
 build:
-	docker-compose run --rm jekyll build
+	bundle exec jekyll build --profile
 
 serve:
-	docker-compose up
+	bundle exec jekyll serve --livereload --future
 
 .PHONY: all build serve

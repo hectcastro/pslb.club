@@ -4,7 +4,7 @@
 [build]
   base    = "."
   publish = "_site"
-  command = "jekyll build"
+  command = "make build"
 
 [context.production]
   environment = { JEKYLL_ENV = "production" }
