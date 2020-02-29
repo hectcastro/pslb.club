@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.8'
-gem 'jekyll-theme-midnight', '~> 0.1.1'
+gem 'jekyll', '~> 4.0'
+git 'https://github.com/pages-themes/midnight.git', ref: 'b1d65' do
+    gem 'jekyll-theme-midnight'
+end
