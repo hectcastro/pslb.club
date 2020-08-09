@@ -1,0 +1,14 @@
+name: Automatically merge GitHub Security PRs
+
+on:
+  check_suite:
+    types:
+      - completed
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ridedott/merge-me-action@v1.3.23
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
