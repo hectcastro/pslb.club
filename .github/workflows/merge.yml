@@ -9,6 +9,6 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: ridedott/merge-me-action@v1.3.23
+      - uses: ridedott/merge-me-action@v1.3.26
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
